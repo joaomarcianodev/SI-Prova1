@@ -1,6 +1,6 @@
 # Sistema de Cifragem e Decifragem de Arquivos Binários (.jpg)
 
-Este projeto implementa um algoritmo de criptografia simétrica baseado em cifras de bloco (inspirado na Rede de Feistel e no DES) para processar arquivos binários, especificamente imagens no formato `.jpg`. O projeto foi desenvolvido inteiramente em Python, sem o uso de bibliotecas de criptografia prontas.
+Este projeto implementa um algoritmo de criptografia simétrica baseado em cifras de bloco (inspirado na Rede de Feistel e no DES - Data Encryption Standard) para processar arquivos binários, especificamente imagens no formato `.jpg`. O projeto foi desenvolvido inteiramente em Python, sem o uso de bibliotecas de criptografia prontas.
 
 ## 1. Fundamentação Teórica
 
@@ -65,4 +65,4 @@ Abra o terminal (ou Prompt de Comando) na pasta raiz onde se encontram o script 
 
 O vídeo demonstrando o funcionamento da ferramenta, com a comprovação da cifragem e posterior recuperação da imagem, encontra-se disponível no link abaixo:
 
-- [Link do vídeo](URL)
+- [Link do vídeo](https://youtu.be/URXHI0vYQAQ)

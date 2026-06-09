@@ -1,7 +1,7 @@
 import os
 
 # ==========================================
-# 1. TÉCNICA DE PADDING (PKCS#7)
+# TÉCNICA DE PADDING (PKCS#7)
 # ==========================================
 def aplicar_padding(dados, tamanho_bloco=8):
     """
@@ -22,7 +22,7 @@ def remover_padding(dados):
     return dados[:-bytes_faltantes]
 
 # ==========================================
-# 2. ALGORITMO BASEADO EM DES (REDE DE FEISTEL)
+# ALGORITMO BASEADO EM DES (REDE DE FEISTEL)
 # ==========================================
 def funcao_feistel(metade_direita, subchave):
     """
@@ -65,7 +65,7 @@ def processar_bloco(bloco, chave, operacao='cifrar'):
     return R + L
 
 # ==========================================
-# 3. MANIPULAÇÃO DE ARQUIVOS BINÁRIOS
+# MANIPULAÇÃO DE ARQUIVOS BINÁRIOS
 # ==========================================
 def processar_arquivo():
     print("\n")
